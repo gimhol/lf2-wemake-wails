@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "lf2_wemake_wails",
+  "outputfilename": "lf2_wemake_wails",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "gim_z66",
+    "email": "gimholg1992@foxmail.com"
+  }
+}
