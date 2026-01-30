@@ -17,12 +17,13 @@ func main() {
 
 	// Create application with options
 	err := wails.Run(&options.App{
-		Title:  "lf2_wemake_wails",
-		Width:  1024,
-		Height: 768,
+		Title:  "Little Fighter 2:Wemake",
+		Width:  794,
+		Height: 450,
 		AssetServer: &assetserver.Options{
 			Assets: assets,
 		},
+		Frameless:        true,
 		BackgroundColour: &options.RGBA{R: 27, G: 38, B: 54, A: 1},
 		OnStartup:        app.startup,
 		Bind: []interface{}{
